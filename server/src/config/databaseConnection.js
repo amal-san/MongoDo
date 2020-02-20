@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 let mongoDB;
 
 const setupDB = callback => {
-  const uri = 'mongodb+srv://amalsan:pass@cluster0-wwkb1.mongodb.net/test?retryWrites=true&w=majority'
+  const uri = 'mongodb+srv://amalsan:pass@clustor0-a3uoq.mongodb.net/test?retryWrites=true&w=majority'
   
 
   MongoClient.connect(
